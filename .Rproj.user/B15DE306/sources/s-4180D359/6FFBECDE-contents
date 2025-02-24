@@ -1,0 +1,40 @@
+# Simulate data for a linear regression
+
+# Model parameters
+intercept <- 3
+slope <- -1
+
+# Sample size
+n <- 100
+
+# covariate
+set.seed(145)
+x <- rnorm(n)
+
+# The linear predictor
+y_deterministic <- intercept + slope * x
+
+# add noise
+y <- rnorm(
+  n,
+  mean = y_deterministic,
+  sd = 2.5
+)
+
+# package up data and save it
+to_save <- data.frame(
+  y = y,
+  x = x
+)
+
+write.csv(
+  to_save,
+  "./data/simulated_data.csv",
+  row.names = FALSE
+)
+
+# plot it out and save it
+jpeg("./plots/example.jpg")
+
+
+

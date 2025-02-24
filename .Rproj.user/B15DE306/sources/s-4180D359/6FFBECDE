@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1740420485721.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6FFBECDE",
+    "lastKnownWriteTime" : 1740420485,
+    "last_content_update" : 1740421602622,
+    "path" : "~/Documents/GitHub/uwin_github_tutorial/R/simulation.R",
+    "project_path" : "R/simulation.R",
+    "properties" : {
+        "cursorPosition" : "37,0",
+        "scrollLine" : "20"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
